@@ -4,9 +4,7 @@ import { useState, useEffect, useCallback, memo } from "react"
 import Link from "next/link"
 import { usePathname, useRouter } from "next/navigation"
 import { Menu, X } from "lucide-react"
-import { GlobalSearch } from "@/components/ui/global-search"
 import { ThemeToggle } from "@/components/ui/theme-toggle"
-import { LanguageSwitcher } from "@/components/ui/language-switcher"
 import { useLanguage } from "@/contexts/language-context"
 
 // Memoized NavLink component for better performance
@@ -53,8 +51,6 @@ export function Navigation() {
     { name: t("common.navigation.work"), href: "/work" },
     { name: t("common.navigation.services"), href: "/services" },
     { name: t("common.navigation.process"), href: "/process" },
-    { name: t("common.navigation.blog"), href: "/blog" },
-    { name: t("common.navigation.testimonials"), href: "/testimonials" },
     { name: t("common.navigation.resources"), href: "/resources" },
     { name: t("common.navigation.contact"), href: "/contact" },
   ]
@@ -131,16 +127,12 @@ export function Navigation() {
               ))}
             </nav>
             <div className="flex items-center space-x-3">
-              <GlobalSearch data-search-trigger />
-              <LanguageSwitcher />
               <ThemeToggle />
             </div>
           </div>
 
           {/* Mobile Menu Button */}
           <div className="flex items-center space-x-3 md:hidden">
-            <GlobalSearch data-search-trigger />
-            <LanguageSwitcher />
             <ThemeToggle />
             <button
               onClick={toggleMenu}
