@@ -1,0 +1,21 @@
+{
+  "name": "Alex Morgan - UI/UX Designer Portfolio",
+  "short_name": "Alex Morgan",
+  "description": "UI/UX designer specializing in creating intuitive, engaging, and conversion-focused digital experiences.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#111112",
+  "theme_color": "#3b82f6",
+  "icons": [
+    {
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

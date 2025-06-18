@@ -1,0 +1,84 @@
+/* Accessibility CSS */
+
+/* High contrast mode */
+.high-contrast {
+  --bg-color: #000000;
+  --text-color: #ffffff;
+  --accent-color: #ffff00;
+  --link-color: #00ffff;
+  --border-color: #ffffff;
+}
+
+.high-contrast body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+.high-contrast a {
+  color: var(--link-color);
+}
+
+.high-contrast button,
+.high-contrast input,
+.high-contrast select,
+.high-contrast textarea {
+  border-color: var(--border-color);
+}
+
+.high-contrast .bg-accent-blue {
+  background-color: var(--accent-color);
+  color: #000000;
+}
+
+.high-contrast img {
+  filter: grayscale(100%) contrast(120%);
+}
+
+/* Reduced motion */
+.reduced-motion * {
+  animation-duration: 0.001ms !important;
+  animation-iteration-count: 1 !important;
+  transition-duration: 0.001ms !important;
+  scroll-behavior: auto !important;
+}
+
+/* Enhanced focus indicators */
+.focus-visible :focus {
+  outline: 3px solid #ffff00 !important;
+  outline-offset: 3px !important;
+}
+
+/* Keyboard navigation */
+.using-keyboard :focus {
+  outline: 2px solid #00ffff !important;
+  outline-offset: 2px !important;
+}
+
+/* Skip link */
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background: #000;
+  color: white;
+  padding: 8px;
+  z-index: 100;
+  transition: top 0.2s;
+}
+
+.skip-link:focus {
+  top: 0;
+}
+
+/* Screen reader only */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
