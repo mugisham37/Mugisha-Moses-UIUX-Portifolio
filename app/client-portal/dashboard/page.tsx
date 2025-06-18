@@ -48,7 +48,7 @@ const projects = [
 const messages = [
   {
     id: "1",
-    from: "Alex Morgan",
+    from: "Mugisha Moses",
     subject: "Website Redesign Update",
     preview: "I've completed the homepage design and would like your feedback...",
     date: "2025-07-02",
@@ -56,7 +56,7 @@ const messages = [
   },
   {
     id: "2",
-    from: "Alex Morgan",
+    from: "Mugisha Moses",
     subject: "Mobile App Wireframes",
     preview: "Please review the attached wireframes for the mobile app...",
     date: "2025-06-28",
@@ -121,7 +121,7 @@ export default function ClientPortalDashboard() {
         <div className="p-6">
           <Link href="/" className="flex items-center gap-2">
             <h1 className="text-xl font-bricolage font-semibold">
-              Alex<span className="text-accent-blue">.</span>Morgan
+              Mugisha<span className="text-accent-blue">.</span>Moses
             </h1>
           </Link>
           <p className="text-sm text-neutral-400 mt-1">Client Portal</p>

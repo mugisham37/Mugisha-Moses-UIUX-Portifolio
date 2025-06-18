@@ -51,7 +51,7 @@ export function AboutSection() {
             <div className="w-full h-96 bg-gradient-to-br from-accent-blue/20 to-accent-purple/20 rounded-xl2 flex items-center justify-center overflow-hidden">
               <Image
                 src="/placeholder.svg?height=400&width=400"
-                alt="Alex Morgan"
+                alt="Mugisha Moses"
                 width={400}
                 height={400}
                 className="w-full h-full object-cover"

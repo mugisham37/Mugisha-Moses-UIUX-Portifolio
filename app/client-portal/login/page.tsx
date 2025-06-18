@@ -47,7 +47,7 @@ export default function ClientPortalLogin() {
           <AnimatedElement variant="fadeInUp" className="mb-8 text-center">
             <Link href="/" className="inline-block mb-6">
               <h1 className="text-3xl font-bricolage font-semibold">
-                Alex<span className="text-accent-blue">.</span>Morgan
+                Mugisha<span className="text-accent-blue">.</span>Moses
               </h1>
             </Link>
             <TextReveal text="Client Portal" className="text-2xl font-bricolage font-medium mb-2" />
@@ -148,7 +148,7 @@ export default function ClientPortalLogin() {
 
           <AnimatedElement variant="fadeInUp" delay={0.2} className="mt-8 text-center text-sm text-neutral-500">
             <p>
-              &copy; 2025 Alex Morgan. All rights reserved.{" "}
+              &copy; 2025 Mugisha Moses. All rights reserved.{" "}
               <Link href="/privacy" className="text-neutral-400 hover:text-white">
                 Privacy Policy
               </Link>

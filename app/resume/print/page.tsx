@@ -1,21 +1,21 @@
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: "Alex Morgan - Resume/CV",
-  description: "Print-friendly version of Alex Morgan's resume/CV",
+  title: "Mugisha Moses - Resume/CV",
+  description: "Print-friendly version of Mugisha Moses's resume/CV",
 }
 
 export default function PrintResumePage() {
   return (
     <div className="bg-white text-black p-8 max-w-4xl mx-auto print:p-0 print:max-w-none">
       <div className="mb-8 print:mb-6">
-        <h1 className="text-3xl font-bold mb-2 print:text-2xl">Alex Morgan</h1>
+        <h1 className="text-3xl font-bold mb-2 print:text-2xl">Mugisha Moses</h1>
         <p className="text-lg text-gray-700 print:text-base">UI/UX Designer & Digital Product Specialist</p>
         <div className="flex flex-wrap gap-4 mt-2 text-sm text-gray-600">
-          <p>hello@alexmorgan.design</p>
+          <p>hello@mugishamoses.design</p>
           <p>+1 (555) 123-4567</p>
           <p>San Francisco, CA</p>
-          <p>linkedin.com/in/alexmorgan-uxdesigner</p>
+          <p>linkedin.com/in/mugishamoses-uxdesigner</p>
         </div>
       </div>
 
@@ -150,7 +150,7 @@ export default function PrintResumePage() {
       </div>
 
       <div className="mt-8 text-center text-gray-600 text-sm print:hidden">
-        <p>This resume is also available online at alexmorgan.design/resume</p>
+        <p>This resume is also available online at mugishamoses.design/resume</p>
       </div>
     </div>
   )

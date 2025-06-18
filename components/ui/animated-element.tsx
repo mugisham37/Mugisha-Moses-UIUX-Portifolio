@@ -9,6 +9,7 @@ interface AnimatedElementProps {
   children: ReactNode
   variant?: AnimationVariant
   options?: AnimationOptions
+  delay?: number
   className?: string
   as?: ElementType
   disabled?: boolean
@@ -49,6 +50,7 @@ export const AnimatedElement = memo(({
   children,
   variant = "fadeIn",
   options,
+  delay,
   className = "",
   as: Component = "div",
   disabled = false,
@@ -56,7 +58,9 @@ export const AnimatedElement = memo(({
   const [isVisible, setIsVisible] = useState(false)
   const ref = useRef<Element>(null)
   const reducedMotion = useReducedMotion()
-  const { initial, animate, transition } = getAnimationStyles(variant, options)
+  // If delay is provided, merge it with options
+  const mergedOptions = delay !== undefined ? { ...options, delay } : options
+  const { initial, animate, transition } = getAnimationStyles(variant, mergedOptions)
   
   // Skip animations if reduced motion is preferred or animations are disabled
   const skipAnimation = reducedMotion || disabled

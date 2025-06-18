@@ -42,7 +42,7 @@ export function SocialProof({ title = "What People Are Saying", subtitle, maxPos
           avatar: "/placeholder.svg?height=100&width=100",
         },
         content:
-          "Just finished working with @alexmorgan on our website redesign and I'm blown away by the results! The attention to detail and user-focused approach made all the difference. Highly recommend!",
+          "Just finished working with @mugishamoses on our website redesign and I'm blown away by the results! The attention to detail and user-focused approach made all the difference. Highly recommend!",
         date: "2025-06-15",
         likes: 42,
         comments: 5,
@@ -57,7 +57,7 @@ export function SocialProof({ title = "What People Are Saying", subtitle, maxPos
           avatar: "/placeholder.svg?height=100&width=100",
         },
         content:
-          "I had the pleasure of collaborating with Alex Morgan on our product redesign. His strategic approach to UX and ability to translate complex requirements into intuitive interfaces is remarkable. Our user engagement metrics have improved by 35% since launch.",
+          "I had the pleasure of collaborating with Mugisha Moses on our product redesign. His strategic approach to UX and ability to translate complex requirements into intuitive interfaces is remarkable. Our user engagement metrics have improved by 35% since launch.",
         date: "2025-06-10",
         likes: 87,
         comments: 14,
@@ -71,7 +71,7 @@ export function SocialProof({ title = "What People Are Saying", subtitle, maxPos
           avatar: "/placeholder.svg?height=100&width=100",
         },
         content:
-          "If you're looking for a designer who truly understands both aesthetics AND functionality, @alexmorgan is your person. Just explored the new app he designed for us and it's getting rave reviews from users already!",
+          "If you're looking for a designer who truly understands both aesthetics AND functionality, @mugishamoses is your person. Just explored the new app he designed for us and it's getting rave reviews from users already!",
         date: "2025-06-08",
         likes: 31,
         comments: 3,
@@ -86,7 +86,7 @@ export function SocialProof({ title = "What People Are Saying", subtitle, maxPos
           avatar: "/placeholder.svg?height=100&width=100",
         },
         content:
-          "Working with Alex was a game-changer for our startup. He didn't just deliver beautiful designs - he helped us clarify our product vision and create an experience that resonates with our target audience. The investment in quality design has paid off tremendously in user acquisition and retention.",
+          "Working with Mugisha was a game-changer for our startup. He didn't just deliver beautiful designs - he helped us clarify our product vision and create an experience that resonates with our target audience. The investment in quality design has paid off tremendously in user acquisition and retention.",
         date: "2025-06-05",
         likes: 124,
         comments: 21,
@@ -100,7 +100,7 @@ export function SocialProof({ title = "What People Are Saying", subtitle, maxPos
           avatar: "/placeholder.svg?height=100&width=100",
         },
         content:
-          "Our team has worked with many designers over the years, but @alexmorgan stands out for his collaborative approach and strategic thinking. He's not just executing tasks - he's solving real business problems through design.",
+          "Our team has worked with many designers over the years, but @mugishamoses stands out for his collaborative approach and strategic thinking. He's not just executing tasks - he's solving real business problems through design.",
         date: "2025-06-01",
         likes: 56,
         comments: 8,
@@ -115,7 +115,7 @@ export function SocialProof({ title = "What People Are Saying", subtitle, maxPos
           avatar: "/placeholder.svg?height=100&width=100",
         },
         content:
-          "Alex's redesign of our customer portal has transformed how our clients interact with our services. The intuitive navigation and streamlined workflows have reduced support tickets by 40% and increased self-service usage. A true professional who delivers measurable results.",
+          "Mugisha's redesign of our customer portal has transformed how our clients interact with our services. The intuitive navigation and streamlined workflows have reduced support tickets by 40% and increased self-service usage. A true professional who delivers measurable results.",
         date: "2025-05-28",
         likes: 93,
         comments: 11,

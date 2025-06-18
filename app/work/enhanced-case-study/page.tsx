@@ -15,7 +15,7 @@ import { ParallaxElement } from "@/components/ui/parallax-element"
 import Image from "next/image"
 
 export const metadata: Metadata = {
-  title: "FinanceFlow App Redesign | Alex Morgan Portfolio",
+  title: "FinanceFlow App Redesign | Mugisha Moses Portfolio",
   description: "Case study of the FinanceFlow banking app redesign that increased user engagement by 43%",
 }
 
@@ -307,7 +307,7 @@ export default function EnhancedCaseStudyPage() {
         />
 
         <CaseStudyTestimonial
-          quote="Alex's redesign of our banking app completely transformed the user experience. Not only did it look better, but it fundamentally changed how our customers interact with their finances. The metrics speak for themselves - higher engagement, better ratings, and happier customers."
+          quote="Mugisha's redesign of our banking app completely transformed the user experience. Not only did it look better, but it fundamentally changed how our customers interact with their finances. The metrics speak for themselves - higher engagement, better ratings, and happier customers."
           author="Sarah Johnson"
           role="Chief Digital Officer, FinanceFlow Inc."
           image="/placeholder.svg?height=100&width=100"

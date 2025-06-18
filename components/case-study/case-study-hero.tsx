@@ -6,11 +6,13 @@ interface CaseStudyHeroProps {
   subtitle: string
   client: string
   year: string
-  duration: string
-  role: string
+  category?: string
+  image?: string
+  duration?: string
+  role?: string
 }
 
-export function CaseStudyHero({ title, subtitle, client, year, duration, role }: CaseStudyHeroProps) {
+export function CaseStudyHero({ title, subtitle, client, year, category, image, duration, role }: CaseStudyHeroProps) {
   return (
     <section className="relative z-10 max-w-7xl lg:px-8 font-bricolage mr-auto ml-auto pt-32 pr-6 pb-20 pl-6">
       <div className="mb-12">
@@ -35,14 +37,24 @@ export function CaseStudyHero({ title, subtitle, client, year, duration, role }:
           <h3 className="text-sm text-neutral-500 mb-2">Year</h3>
           <p className="font-medium">{year}</p>
         </div>
-        <div className="bg-surface-foreground rounded-lg p-6 border border-white/5">
-          <h3 className="text-sm text-neutral-500 mb-2">Duration</h3>
-          <p className="font-medium">{duration}</p>
-        </div>
-        <div className="bg-surface-foreground rounded-lg p-6 border border-white/5">
-          <h3 className="text-sm text-neutral-500 mb-2">My Role</h3>
-          <p className="font-medium">{role}</p>
-        </div>
+        {category && (
+          <div className="bg-surface-foreground rounded-lg p-6 border border-white/5">
+            <h3 className="text-sm text-neutral-500 mb-2">Category</h3>
+            <p className="font-medium">{category}</p>
+          </div>
+        )}
+        {duration && (
+          <div className="bg-surface-foreground rounded-lg p-6 border border-white/5">
+            <h3 className="text-sm text-neutral-500 mb-2">Duration</h3>
+            <p className="font-medium">{duration}</p>
+          </div>
+        )}
+        {role && (
+          <div className="bg-surface-foreground rounded-lg p-6 border border-white/5">
+            <h3 className="text-sm text-neutral-500 mb-2">My Role</h3>
+            <p className="font-medium">{role}</p>
+          </div>
+        )}
       </div>
     </section>
   )

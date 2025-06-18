@@ -1,6 +1,7 @@
 interface ProcessStep {
   title: string
   description: string
+  image?: string
 }
 
 interface CaseStudyProcessProps {
@@ -22,6 +23,11 @@ export function CaseStudyProcess({ process }: CaseStudyProcessProps) {
                 </div>
                 <h3 className="text-xl font-medium">{step.title}</h3>
               </div>
+              {step.image && (
+                <div className="mt-4 rounded-lg overflow-hidden">
+                  <img src={step.image} alt={step.title} className="w-full h-auto" />
+                </div>
+              )}
             </div>
             <div className="lg:col-span-8">
               <p className="text-neutral-400">{step.description}</p>

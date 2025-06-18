@@ -12,7 +12,7 @@ export function AboutHeroSection() {
             <div className="w-full aspect-square rounded-xl2 overflow-hidden bg-surface-foreground shadow-card">
               <Image
                 src="/placeholder.svg?height=600&width=600"
-                alt="Alex Morgan"
+                alt="Mugisha Moses"
                 width={600}
                 height={600}
                 className="w-full h-full object-cover"
@@ -43,7 +43,7 @@ export function AboutHeroSection() {
             UI/UX Designer with a passion for <span className="text-accent-blue">human-centered design</span>
           </h1>
           <p className="text-lg text-neutral-400 mb-8">
-            I'm Alex Morgan, a UI/UX designer with 7+ years of experience creating intuitive digital experiences that
+            I'm Mugisha Moses, a UI/UX designer with 7+ years of experience creating intuitive digital experiences that
             solve real user problems and drive business growth. My approach combines strategic thinking, empathy, and a
             keen eye for detail.
           </p>

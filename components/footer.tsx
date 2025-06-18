@@ -13,14 +13,14 @@ export function Footer() {
           {/* Brand */}
           <div>
             <Link href="/" className="inline-block text-2xl font-bricolage font-semibold mb-4">
-              Alex Morgan
+              Mugisha Moses
             </Link>
             <p className="text-neutral-400 mb-6">
               UI/UX designer creating intuitive, engaging, and conversion-focused digital experiences.
             </p>
             <div className="flex items-center space-x-4">
               <a
-                href="https://instagram.com/alexmorgan.design"
+                href="https://instagram.com/mugishamoses.design"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-neutral-400 hover:text-white transition-colors"
@@ -29,7 +29,7 @@ export function Footer() {
                 <Instagram className="w-5 h-5" />
               </a>
               <a
-                href="https://twitter.com/alexmorgan_ux"
+                href="https://twitter.com/mugishamoses_ux"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-neutral-400 hover:text-white transition-colors"
@@ -38,7 +38,7 @@ export function Footer() {
                 <Twitter className="w-5 h-5" />
               </a>
               <a
-                href="https://linkedin.com/in/alexmorgan-uxdesigner"
+                href="https://linkedin.com/in/mugishamoses-uxdesigner"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-neutral-400 hover:text-white transition-colors"
@@ -47,7 +47,7 @@ export function Footer() {
                 <Linkedin className="w-5 h-5" />
               </a>
               <a
-                href="https://dribbble.com/alexmorgan"
+                href="https://dribbble.com/mugishamoses"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-neutral-400 hover:text-white transition-colors"
@@ -56,7 +56,7 @@ export function Footer() {
                 <Dribbble className="w-5 h-5" />
               </a>
               <a
-                href="https://github.com/alexmorgan-design"
+                href="https://github.com/mugishamoses-design"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-neutral-400 hover:text-white transition-colors"
@@ -140,7 +140,7 @@ export function Footer() {
               </li>
               <li>
                 <a
-                  href="/alex-morgan-portfolio.pdf"
+                  href="/mugisha-moses-portfolio.pdf"
                   className="text-neutral-400 hover:text-white transition-colors"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -155,7 +155,7 @@ export function Footer() {
           <div>
             <h3 className="text-sm font-medium uppercase tracking-wider mb-4">Contact</h3>
             <ul className="space-y-2">
-              <li className="text-neutral-400">hello@alexmorgan.design</li>
+              <li className="text-neutral-400">hello@mugishamoses.design</li>
               <li className="text-neutral-400">+1 (555) 123-4567</li>
               <li className="text-neutral-400">San Francisco, CA</li>
             </ul>
@@ -168,7 +168,7 @@ export function Footer() {
 
         <div className="mt-12 pt-8 border-t border-white/10 flex flex-col md:flex-row items-center justify-between">
           <p className="text-sm text-neutral-500 mb-4 md:mb-0">
-            &copy; {currentYear} Alex Morgan. All rights reserved.
+            &copy; {currentYear} Mugisha Moses. All rights reserved.
           </p>
           <div className="flex items-center space-x-6">
             <Link href="/privacy" className="text-sm text-neutral-500 hover:text-white transition-colors">

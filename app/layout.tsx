@@ -37,34 +37,34 @@ const bricolage = Bricolage_Grotesque({
 })
 
 export const metadata: Metadata = {
-  title: "Alex Morgan · UI/UX Designer Portfolio",
+  title: "Mugisha Moses · UI/UX Designer Portfolio",
   description:
     "UI/UX designer specializing in creating intuitive, engaging, and conversion-focused digital experiences that solve real user problems and drive business growth.",
   keywords: "UI/UX Designer, User Experience, User Interface, Product Design, Digital Design",
-  authors: [{ name: "Alex Morgan" }],
+  authors: [{ name: "Mugisha Moses" }],
   openGraph: {
-    title: "Alex Morgan · UI/UX Designer Portfolio",
+    title: "Mugisha Moses · UI/UX Designer Portfolio",
     description: "Creating digital experiences that convert",
     type: "website",
     images: [
       {
-        url: "https://alexmorgan.design/og-image.jpg",
+        url: "https://mugishamoses.design/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Alex Morgan UI/UX Designer Portfolio",
+        alt: "Mugisha Moses UI/UX Designer Portfolio",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Alex Morgan · UI/UX Designer Portfolio",
+    title: "Mugisha Moses · UI/UX Designer Portfolio",
     description: "Creating digital experiences that convert",
-    images: ["https://alexmorgan.design/twitter-image.jpg"],
-    creator: "@alexmorgan_ux",
+    images: ["https://mugishamoses.design/twitter-image.jpg"],
+    creator: "@mugishamoses_ux",
   },
   robots: "index, follow",
   alternates: {
-    canonical: "https://alexmorgan.design",
+    canonical: "https://mugishamoses.design",
   },
   manifest: "/manifest.json",
   generator: 'v0.dev'

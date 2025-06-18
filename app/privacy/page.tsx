@@ -1,8 +1,8 @@
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: "Privacy Policy | Alex Morgan Portfolio",
-  description: "Privacy policy and data protection information for Alex Morgan's design portfolio website.",
+  title: "Privacy Policy | Mugisha Moses Portfolio",
+  description: "Privacy policy and data protection information for Mugisha Moses's design portfolio website.",
 }
 
 export default function PrivacyPage() {
@@ -15,8 +15,8 @@ export default function PrivacyPage() {
 
         <h2 className="text-2xl font-medium mt-12 mb-4">1. Introduction</h2>
         <p>
-          This Privacy Policy explains how Alex Morgan Design ("we", "our", or "us") collects, uses, and shares your
-          personal information when you visit alexmorgan.design (the "Site"). By using the Site, you agree to the
+          This Privacy Policy explains how Mugisha Moses Design ("we", "our", or "us") collects, uses, and shares your
+          personal information when you visit mugishamoses.design (the "Site"). By using the Site, you agree to the
           collection and use of information in accordance with this policy.
         </p>
 
@@ -89,8 +89,8 @@ export default function PrivacyPage() {
         <h2 className="text-2xl font-medium mt-12 mb-4">8. Contact Us</h2>
         <p>If you have any questions about this Privacy Policy, please contact us:</p>
         <ul className="list-disc pl-6 mt-4 space-y-2">
-          <li>By email: privacy@alexmorgan.design</li>
-          <li>By visiting the contact page on our website: alexmorgan.design/contact</li>
+          <li>By email: privacy@mugishamoses.design</li>
+          <li>By visiting the contact page on our website: mugishamoses.design/contact</li>
         </ul>
       </div>
     </div>
