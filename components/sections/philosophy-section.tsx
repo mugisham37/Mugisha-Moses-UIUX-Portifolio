@@ -5,25 +5,25 @@ export function PhilosophySection() {
     {
       icon: Heart,
       title: "Human-Centered",
-      description: "Every design decision starts with understanding real user needs, behaviors, and pain points.",
+      description: "Every design decision starts with understanding real user needs, behaviors, and pain points through empathetic research and continuous feedback.",
       color: "accent-blue",
     },
     {
       icon: Users,
       title: "Collaborative",
-      description: "Great design happens when diverse perspectives come together to solve complex problems.",
+      description: "Great design happens when diverse perspectives come together to solve complex problems, bringing stakeholders and users into the creative process.",
       color: "accent-purple",
     },
     {
       icon: Lightbulb,
       title: "Innovation-Driven",
-      description: "Pushing boundaries while maintaining usability to create breakthrough experiences.",
+      description: "Pushing boundaries while maintaining usability to create breakthrough experiences that balance creativity with practical implementation.",
       color: "accent-teal",
     },
     {
       icon: Target,
       title: "Results-Focused",
-      description: "Beautiful design means nothing without measurable impact on business and user goals.",
+      description: "Beautiful design means nothing without measurable impact on business metrics and user satisfaction, always designing with clear objectives in mind.",
       color: "orange-400",
     },
   ]
@@ -34,7 +34,7 @@ export function PhilosophySection() {
         <h2 className="text-3xl font-bricolage font-semibold mb-4 animate-on-scroll">Design Philosophy</h2>
         <p className="text-lg text-neutral-400 animate-on-scroll max-w-2xl mx-auto">
           My approach to design is grounded in empathy, collaboration, and a relentless focus on creating meaningful
-          impact.
+          impact that transforms user experiences and drives business growth.
         </p>
       </div>
 
@@ -58,10 +58,10 @@ export function PhilosophySection() {
 
       <div className="bg-surface-foreground rounded-xl2 p-8 border border-white/5 animate-on-scroll">
         <blockquote className="text-xl text-neutral-200 text-center italic mb-4">
-          "Good design is obvious. Great design is transparent. But exceptional design creates an emotional connection
-          that transforms how people interact with technology."
+          "Good design solves problems. Great design anticipates them. But exceptional design creates an emotional connection
+          that transforms how people interact with technology, making complex experiences feel intuitive and delightful."
         </blockquote>
-        <p className="text-center text-neutral-500">— My Design Manifesto</p>
+        <p className="text-center text-neutral-500">— Mugisha Moses, Design Philosophy</p>
       </div>
     </section>
   )

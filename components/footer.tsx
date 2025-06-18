@@ -156,8 +156,8 @@ export function Footer() {
             <h3 className="text-sm font-medium uppercase tracking-wider mb-4">Contact</h3>
             <ul className="space-y-2">
               <li className="text-neutral-400">hello@mugishamoses.design</li>
-              <li className="text-neutral-400">+1 (555) 123-4567</li>
-              <li className="text-neutral-400">San Francisco, CA</li>
+              <li className="text-neutral-400">+256 (789) 123-456</li>
+              <li className="text-neutral-400">Kampala, Uganda</li>
             </ul>
             <Link href="/contact" className="inline-flex items-center gap-1 mt-4 text-accent-blue hover:underline">
               <span>Get in touch</span>

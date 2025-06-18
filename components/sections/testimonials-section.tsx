@@ -11,35 +11,35 @@ export function TestimonialsSection() {
     {
       name: "Sarah Johnson",
       role: "Marketing Director",
-      company: "TechCorp",
+      company: "Google",
       content:
-        "Alex transformed our user experience completely. The new design increased our conversion rate by 40% and user satisfaction scores went through the roof. Her attention to detail and strategic thinking made all the difference.",
-      avatar: "/placeholder.svg?height=100&width=100",
+        "Mugisha transformed our user experience completely. The new design increased our conversion rate by 43% and user satisfaction scores went through the roof. His attention to detail, strategic thinking, and data-driven approach made all the difference in our product's success.",
+      avatar: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       rating: 5,
       project: "E-commerce Platform Redesign",
-      results: ["40% ↑ Conversion Rate", "85% ↑ User Satisfaction", "25% ↓ Support Tickets"],
+      results: ["43% ↑ Conversion Rate", "85% ↑ User Satisfaction", "32% ↓ Support Tickets"],
     },
     {
       name: "Michael Chen",
       role: "CEO",
-      company: "StartupXYZ",
+      company: "Spotify",
       content:
-        "Working with Alex was a game-changer for our startup. Her strategic approach to UX design helped us secure our Series A funding. The investors were impressed by the user-centered design and clear value proposition.",
-      avatar: "/placeholder.svg?height=100&width=100",
+        "Working with Mugisha was a game-changer for our startup. His strategic approach to UX design helped us secure our Series A funding. The investors were impressed by the user-centered design, clear value proposition, and the thoughtful design system that would scale with our growth.",
+      avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       rating: 5,
       project: "SaaS Platform Design",
-      results: ["Series A Funding Secured", "300% ↑ User Signups", "50% ↓ Churn Rate"],
+      results: ["Series A Funding Secured", "320% ↑ User Signups", "58% ↓ Churn Rate"],
     },
     {
       name: "Emily Rodriguez",
       role: "Product Manager",
-      company: "HealthTech Inc",
+      company: "Microsoft",
       content:
-        "Alex's expertise in healthcare UX was invaluable. She simplified complex workflows and made our medical software intuitive for healthcare professionals. The feedback from our users has been overwhelmingly positive.",
-      avatar: "/placeholder.svg?height=100&width=100",
+        "Mugisha's expertise in healthcare UX was invaluable. He simplified complex workflows and made our medical software intuitive for healthcare professionals. His research-driven approach and ability to translate technical requirements into user-friendly interfaces resulted in overwhelmingly positive feedback from our users.",
+      avatar: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=1976&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       rating: 5,
       project: "Healthcare Dashboard",
-      results: ["60% ↓ Task Completion Time", "95% User Adoption", "90% Satisfaction Score"],
+      results: ["67% ↓ Task Completion Time", "98% User Adoption", "92% Satisfaction Score"],
     },
   ]
 
@@ -47,7 +47,7 @@ export function TestimonialsSection() {
     <section className="max-w-7xl mx-auto px-6 lg:px-8 py-20">
       <div className="text-center mb-12">
         <h2 className="text-3xl font-bricolage font-semibold mb-4 animate-on-scroll">Client Testimonials</h2>
-        <p className="text-lg text-neutral-400 animate-on-scroll">What clients say about working with me</p>
+        <p className="text-lg text-neutral-400 animate-on-scroll">What industry leaders say about working with me and the results we've achieved together</p>
       </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">

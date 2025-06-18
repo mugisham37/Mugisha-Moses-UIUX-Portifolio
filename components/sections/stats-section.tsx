@@ -7,10 +7,10 @@ export function StatsSection() {
   const sectionRef = useRef<HTMLElement>(null)
 
   const stats = [
-    { value: 7, suffix: "+", label: "Years Experience" },
-    { value: 50, suffix: "+", label: "Projects Completed" },
-    { value: 30, suffix: "+", label: "Happy Clients" },
-    { value: 15, suffix: "+", label: "Design Awards" },
+    { value: 8, suffix: "+", label: "Years Experience" },
+    { value: 75, suffix: "+", label: "Projects Completed" },
+    { value: 45, suffix: "+", label: "Happy Clients" },
+    { value: 18, suffix: "+", label: "Design Awards" },
   ]
 
   useEffect(() => {

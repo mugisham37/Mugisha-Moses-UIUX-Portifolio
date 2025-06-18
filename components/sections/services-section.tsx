@@ -6,35 +6,48 @@ export function ServicesSection() {
     {
       icon: Users,
       title: "User Experience Design",
-      description: "Research, wireframing, user testing, and creating intuitive user flows that solve real problems.",
+      description: "Comprehensive user research, strategic wireframing, iterative user testing, and creating intuitive user flows that solve real problems and enhance user satisfaction.",
       timeline: "3-6 weeks",
       price: "Starting at $5,000",
       color: "accent-blue",
       features: [
-        "User Research & Analysis",
-        "Information Architecture",
-        "Wireframing & Prototyping",
-        "Usability Testing",
+        "User Research & Behavioral Analysis",
+        "Information Architecture & User Flows",
+        "Interactive Wireframing & Prototyping",
+        "Comprehensive Usability Testing",
+        "Accessibility Implementation",
       ],
     },
     {
       icon: Palette,
       title: "User Interface Design",
-      description: "Visual design, design systems, prototyping, and creating beautiful interfaces that engage users.",
+      description: "Pixel-perfect visual design, scalable design systems, high-fidelity prototyping, and creating beautiful interfaces that engage users and reinforce brand identity.",
       timeline: "2-4 weeks",
       price: "Starting at $3,500",
       color: "accent-purple",
-      features: ["Visual Design & Branding", "Design Systems", "Interactive Prototypes", "Responsive Design"],
+      features: [
+        "Visual Design & Brand Integration", 
+        "Comprehensive Design Systems", 
+        "Advanced Interactive Prototypes", 
+        "Responsive & Adaptive Design",
+        "Micro-interactions & Animation"
+      ],
     },
     {
       icon: Lightbulb,
       title: "Design Consultation",
       description:
-        "Expert advice on improving existing products, design audits, and strategic planning for digital experiences.",
+        "Expert advice on improving existing products, comprehensive design audits, conversion optimization, and strategic planning for digital experiences that drive business growth.",
       timeline: "1-2 weeks",
       price: "Starting at $1,500",
       color: "accent-teal",
-      features: ["Design Audits", "UX Strategy", "Team Training", "Design System Review"],
+      features: [
+        "Comprehensive Design Audits", 
+        "UX Strategy & Roadmapping", 
+        "Team Training & Workshops", 
+        "Design System Review & Optimization",
+        "Conversion Rate Optimization"
+      ],
     },
   ]
 
@@ -43,7 +56,7 @@ export function ServicesSection() {
       <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-6 mb-12">
         <div>
           <h2 className="text-3xl font-bricolage font-semibold mb-4 animate-on-scroll">My Services</h2>
-          <p className="text-neutral-400 animate-on-scroll">Comprehensive design solutions for your digital needs</p>
+          <p className="text-neutral-400 animate-on-scroll">Comprehensive design solutions tailored to elevate your digital products and drive measurable results</p>
         </div>
         <Link
           href="/services"

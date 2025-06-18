@@ -34,7 +34,7 @@ export function ContactSection() {
           Let's Work Together
         </h2>
         <p className="text-lg text-neutral-400 animate-on-scroll" style={{ animationDelay: "4.8s" }}>
-          Ready to create something amazing? Let's discuss your project.
+          Ready to create exceptional digital experiences that drive results? Let's discuss your project and goals.
         </p>
       </div>
 
@@ -49,7 +49,7 @@ export function ContactSection() {
               </div>
               <div>
                 <p className="font-medium">Email</p>
-                <p className="text-neutral-400">alex@alexmorgan.design</p>
+                <p className="text-neutral-400">hello@mugishamoses.design</p>
               </div>
             </div>
             <div className="flex items-center gap-4">
@@ -58,7 +58,7 @@ export function ContactSection() {
               </div>
               <div>
                 <p className="font-medium">Phone</p>
-                <p className="text-neutral-400">+1 (555) 123-4567</p>
+                <p className="text-neutral-400">+256 (789) 123-456</p>
               </div>
             </div>
             <div className="flex items-center gap-4">
@@ -67,7 +67,7 @@ export function ContactSection() {
               </div>
               <div>
                 <p className="font-medium">Location</p>
-                <p className="text-neutral-400">San Francisco, CA</p>
+                <p className="text-neutral-400">Kampala, Uganda</p>
               </div>
             </div>
           </div>
@@ -77,25 +77,33 @@ export function ContactSection() {
             <p className="font-medium mb-4">Follow Me</p>
             <div className="flex gap-4">
               <Link
-                href="#"
+                href="https://www.linkedin.com/in/mugishamoses"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-10 h-10 rounded-lg bg-surface-foreground flex items-center justify-center hover:bg-accent-blue/20 transition magnetic-hover"
               >
                 <Linkedin className="w-5 h-5" />
               </Link>
               <Link
-                href="#"
+                href="https://twitter.com/mugishamoses_ux"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-10 h-10 rounded-lg bg-surface-foreground flex items-center justify-center hover:bg-accent-blue/20 transition magnetic-hover"
               >
                 <Twitter className="w-5 h-5" />
               </Link>
               <Link
-                href="#"
+                href="https://dribbble.com/mugishamoses"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-10 h-10 rounded-lg bg-surface-foreground flex items-center justify-center hover:bg-accent-blue/20 transition magnetic-hover"
               >
                 <Dribbble className="w-5 h-5" />
               </Link>
               <Link
-                href="#"
+                href="https://github.com/mugishamoses"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-10 h-10 rounded-lg bg-surface-foreground flex items-center justify-center hover:bg-accent-blue/20 transition magnetic-hover"
               >
                 <Github className="w-5 h-5" />

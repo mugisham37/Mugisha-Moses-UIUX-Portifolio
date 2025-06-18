@@ -7,7 +7,7 @@ export function ProcessHeroSection() {
         </h1>
         <p className="text-lg text-neutral-400 mb-8 animate-on-scroll">
           A proven methodology that combines strategic thinking, user research, and iterative design to create
-          exceptional digital experiences that drive business results.
+          exceptional digital experiences that drive measurable business results and delight users at every touchpoint.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-12">
@@ -30,7 +30,7 @@ export function ProcessHeroSection() {
               </svg>
             </div>
             <h3 className="font-medium mb-2">User-Centered</h3>
-            <p className="text-sm text-neutral-400">Every decision is based on real user needs and behaviors</p>
+            <p className="text-sm text-neutral-400">Every design decision is based on real user needs, behaviors, and pain points identified through thorough research</p>
           </div>
 
           <div className="bg-surface-foreground rounded-lg p-6 border border-white/5 animate-on-scroll">
@@ -52,7 +52,7 @@ export function ProcessHeroSection() {
               </svg>
             </div>
             <h3 className="font-medium mb-2">Data-Driven</h3>
-            <p className="text-sm text-neutral-400">Decisions backed by research, analytics, and testing</p>
+            <p className="text-sm text-neutral-400">Design decisions backed by qualitative research, quantitative analytics, and rigorous A/B testing</p>
           </div>
 
           <div className="bg-surface-foreground rounded-lg p-6 border border-white/5 animate-on-scroll">
@@ -74,7 +74,7 @@ export function ProcessHeroSection() {
               </svg>
             </div>
             <h3 className="font-medium mb-2">Iterative</h3>
-            <p className="text-sm text-neutral-400">Continuous refinement through feedback and testing</p>
+            <p className="text-sm text-neutral-400">Continuous refinement through user feedback, usability testing, and performance metrics to achieve optimal results</p>
           </div>
         </div>
       </div>

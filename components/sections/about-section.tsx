@@ -10,18 +10,19 @@ export function AboutSection() {
           <h2 className="text-3xl font-bricolage font-semibold mb-6">About Me</h2>
           <p className="text-lg text-neutral-400 mb-6">
             I'm a passionate UI/UX designer with over 7 years of experience creating digital experiences that not only
-            look beautiful but also solve real user problems and drive business results.
+            look beautiful but also solve real user problems and drive measurable business results.
           </p>
           <p className="text-neutral-400 mb-8">
             My approach combines user-centered design principles with business strategy to create products that users
-            love and companies profit from. I believe great design is invisible – it just works.
+            love and companies profit from. I specialize in conversion optimization, accessibility, and creating
+            design systems that scale. I believe great design is invisible – it just works.
           </p>
           <div className="space-y-4">
             <div className="flex items-center gap-3">
               <div className="w-8 h-8 rounded-lg bg-accent-blue/20 flex items-center justify-center">
                 <Award className="w-4 h-4 text-accent-blue" />
               </div>
-              <span className="text-neutral-300">Certified UX Professional (CXL Institute)</span>
+              <span className="text-neutral-300">Certified UX Professional (Nielsen Norman Group)</span>
             </div>
             <div className="flex items-center gap-3">
               <div className="w-8 h-8 rounded-lg bg-accent-purple/20 flex items-center justify-center">
@@ -33,7 +34,7 @@ export function AboutSection() {
               <div className="w-8 h-8 rounded-lg bg-accent-teal/20 flex items-center justify-center">
                 <Users className="w-4 h-4 text-accent-teal" />
               </div>
-              <span className="text-neutral-300">Led design teams at 3 startups</span>
+              <span className="text-neutral-300">Led design teams at Fintech & Healthcare startups</span>
             </div>
           </div>
           <div className="mt-8">
@@ -50,7 +51,7 @@ export function AboutSection() {
           <div className="relative">
             <div className="w-full h-96 bg-gradient-to-br from-accent-blue/20 to-accent-purple/20 rounded-xl2 flex items-center justify-center overflow-hidden">
               <Image
-                src="/placeholder.svg?height=400&width=400"
+                src="https://images.unsplash.com/photo-1634926878768-2a5b3c42f139?q=80&w=1956&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 alt="Mugisha Moses"
                 width={400}
                 height={400}

@@ -6,30 +6,30 @@ export function ProcessSection() {
       icon: Search,
       title: "Research",
       description:
-        "Understanding users, business goals, and market landscape through comprehensive research and analysis.",
+        "Understanding users, business goals, and market landscape through comprehensive research, data analysis, and stakeholder interviews to build a solid foundation for design decisions.",
       color: "accent-blue",
-      details: ["User Interviews", "Competitive Analysis", "Market Research", "Stakeholder Workshops"],
+      details: ["In-depth User Interviews", "Competitive Analysis", "Market & Trend Research", "Collaborative Stakeholder Workshops"],
     },
     {
       icon: Layout,
       title: "Define",
-      description: "Creating user personas, journey maps, and defining the core problems we're solving.",
+      description: "Creating detailed user personas, comprehensive journey maps, and clearly defining the core problems we're solving to establish measurable success criteria.",
       color: "accent-purple",
-      details: ["User Personas", "Journey Mapping", "Problem Definition", "Success Metrics"],
+      details: ["Detailed User Personas", "Comprehensive Journey Mapping", "Clear Problem Definition", "Measurable Success Metrics"],
     },
     {
       icon: PenTool,
       title: "Design",
-      description: "Wireframing, prototyping, and creating high-fidelity designs that solve user problems elegantly.",
+      description: "Wireframing, interactive prototyping, and creating high-fidelity designs that solve user problems elegantly while maintaining brand consistency and accessibility standards.",
       color: "accent-teal",
-      details: ["Wireframing", "Visual Design", "Prototyping", "Design Systems"],
+      details: ["Low to High-fidelity Wireframing", "Brand-aligned Visual Design", "Interactive Prototyping", "Scalable Design Systems"],
     },
     {
       icon: CheckCircle,
       title: "Validate",
-      description: "Testing with real users, gathering feedback, and iterating to perfection before launch.",
+      description: "Testing with real users, gathering quantitative and qualitative feedback, and iterating designs to perfection before launch, ensuring optimal user experience and business impact.",
       color: "orange-400",
-      details: ["Usability Testing", "A/B Testing", "Feedback Analysis", "Design Iteration"],
+      details: ["Moderated Usability Testing", "Data-driven A/B Testing", "Comprehensive Feedback Analysis", "Rapid Design Iteration"],
     },
   ]
 
@@ -38,8 +38,8 @@ export function ProcessSection() {
       <div className="text-center mb-12">
         <h2 className="text-3xl font-bricolage font-semibold mb-4 animate-on-scroll">My Design Process</h2>
         <p className="text-lg text-neutral-400 animate-on-scroll max-w-2xl mx-auto">
-          A proven methodology that ensures every project delivers exceptional results through strategic thinking and
-          user-centered design.
+          A proven methodology refined over years of experience that ensures every project delivers exceptional results through 
+          strategic thinking, user-centered design principles, and data-driven decision making.
         </p>
       </div>
 

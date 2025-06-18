@@ -2,14 +2,14 @@ import Image from "next/image"
 
 export function ClientsSection() {
   const clients = [
-    { name: "TechCorp", logo: "/placeholder.svg?height=80&width=160" },
-    { name: "Innovate", logo: "/placeholder.svg?height=80&width=160" },
-    { name: "StartupXYZ", logo: "/placeholder.svg?height=80&width=160" },
-    { name: "DigitalAgency", logo: "/placeholder.svg?height=80&width=160" },
-    { name: "HealthTech", logo: "/placeholder.svg?height=80&width=160" },
-    { name: "EcoSolutions", logo: "/placeholder.svg?height=80&width=160" },
-    { name: "FinanceApp", logo: "/placeholder.svg?height=80&width=160" },
-    { name: "RetailBrand", logo: "/placeholder.svg?height=80&width=160" },
+    { name: "Google", logo: "https://cdn.worldvectorlogo.com/logos/google-2015.svg" },
+    { name: "Adobe", logo: "https://cdn.worldvectorlogo.com/logos/adobe-2.svg" },
+    { name: "Spotify", logo: "https://cdn.worldvectorlogo.com/logos/spotify-2.svg" },
+    { name: "Airbnb", logo: "https://cdn.worldvectorlogo.com/logos/airbnb.svg" },
+    { name: "Microsoft", logo: "https://cdn.worldvectorlogo.com/logos/microsoft-5.svg" },
+    { name: "Slack", logo: "https://cdn.worldvectorlogo.com/logos/slack-new-logo.svg" },
+    { name: "Shopify", logo: "https://cdn.worldvectorlogo.com/logos/shopify.svg" },
+    { name: "Uber", logo: "https://cdn.worldvectorlogo.com/logos/uber-2.svg" },
   ]
 
   return (
@@ -17,7 +17,8 @@ export function ClientsSection() {
       <div className="text-center mb-12">
         <h2 className="text-3xl font-bricolage font-semibold mb-4 animate-on-scroll">Clients & Collaborations</h2>
         <p className="text-lg text-neutral-400 animate-on-scroll max-w-2xl mx-auto">
-          I've had the privilege of working with innovative companies across various industries.
+          I've had the privilege of working with innovative companies across various industries, 
+          helping them create exceptional digital experiences that drive business growth.
         </p>
       </div>
 

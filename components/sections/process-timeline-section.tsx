@@ -84,58 +84,62 @@ export function ProcessTimelineSection() {
       title: "Discovery & Research",
       duration: "1-2 weeks",
       description:
-        "Understanding your business goals, user needs, and market landscape through comprehensive research and stakeholder interviews.",
+        "Understanding your business goals, user needs, and market landscape through comprehensive research, stakeholder interviews, and data analysis to establish a solid foundation for the project.",
       activities: [
-        "Stakeholder interviews",
-        "User research planning",
-        "Competitive analysis",
-        "Current state assessment",
-        "Success metrics definition",
+        "Stakeholder interviews & workshops",
+        "User research & interviews",
+        "Competitive & market analysis",
+        "Current state assessment & heuristic evaluation",
+        "Success metrics & KPI definition",
+        "Analytics review & insights extraction"
       ],
-      deliverables: ["Research plan", "Stakeholder insights", "Competitive landscape", "Project roadmap"],
+      deliverables: ["Research plan & methodology", "User research findings", "Competitive analysis report", "Heuristic evaluation", "Project roadmap & timeline", "Success metrics framework"],
       color: "accent-blue",
     },
     {
       title: "Strategy & Planning",
       duration: "1 week",
       description:
-        "Synthesizing research insights into actionable strategies and creating a clear roadmap for the design process.",
+        "Synthesizing research insights into actionable strategies and creating a clear roadmap for the design process, ensuring alignment between business goals and user needs.",
       activities: [
-        "User persona development",
-        "Journey mapping",
-        "Information architecture",
-        "Feature prioritization",
-        "Design strategy definition",
+        "User persona & empathy map creation",
+        "Customer journey mapping & pain point identification",
+        "Information architecture & content strategy",
+        "Feature prioritization & scope definition",
+        "Design strategy & principles documentation",
+        "Technical requirements & constraints analysis"
       ],
-      deliverables: ["User personas", "Journey maps", "Site map", "Feature requirements", "Design strategy"],
+      deliverables: ["User personas & empathy maps", "Customer journey maps", "Site map & information architecture", "Feature requirements & prioritization matrix", "Design strategy document", "Technical specifications"],
       color: "accent-purple",
     },
     {
       title: "Design & Prototyping",
       duration: "3-4 weeks",
-      description: "Creating wireframes, visual designs, and interactive prototypes that bring the strategy to life.",
+      description: "Creating wireframes, visual designs, and interactive prototypes that bring the strategy to life, focusing on usability, accessibility, and visual appeal.",
       activities: [
-        "Wireframing",
-        "Visual design exploration",
-        "Design system creation",
-        "High-fidelity design",
-        "Interactive prototyping",
+        "Low-fidelity wireframing & sketching",
+        "Visual design exploration & mood boards",
+        "Design system & component library creation",
+        "High-fidelity UI design & responsive layouts",
+        "Interactive prototyping & micro-interactions",
+        "Accessibility compliance & implementation"
       ],
-      deliverables: ["Wireframes", "Visual designs", "Design system", "Interactive prototype", "Design specifications"],
+      deliverables: ["Low & high-fidelity wireframes", "Visual design system & style guide", "Component library & UI kit", "Interactive prototype", "Design specifications & redlines", "Accessibility documentation"],
       color: "accent-teal",
     },
     {
       title: "Testing & Refinement",
       duration: "1-2 weeks",
-      description: "Validating designs through user testing and stakeholder feedback, then refining based on insights.",
+      description: "Validating designs through user testing, stakeholder feedback, and data analysis, then iteratively refining based on insights to ensure optimal user experience and business outcomes.",
       activities: [
-        "Usability testing",
-        "Stakeholder reviews",
-        "Design iteration",
-        "Final refinements",
-        "Handoff preparation",
+        "Usability testing & user interviews",
+        "Stakeholder reviews & feedback sessions",
+        "A/B testing & data analysis",
+        "Design iteration & refinement",
+        "Developer handoff preparation",
+        "Implementation support & QA"
       ],
-      deliverables: ["Test results", "Refined designs", "Final prototype", "Handoff documentation"],
+      deliverables: ["Usability test results & insights", "Refined designs & iterations", "Final interactive prototype", "Developer handoff documentation", "Implementation guidelines", "Post-launch measurement plan"],
       color: "orange-400",
     },
   ], []);
@@ -145,8 +149,8 @@ export function ProcessTimelineSection() {
       <div className="text-center mb-12">
         <h2 className="text-3xl font-bricolage font-semibold mb-4 animate-on-scroll">Process Timeline</h2>
         <p className="text-lg text-neutral-400 animate-on-scroll max-w-2xl mx-auto">
-          A structured approach that ensures every project delivers exceptional results through clear phases and
-          milestones.
+          A structured approach that ensures every project delivers exceptional results through clear phases,
+          measurable milestones, and collaborative checkpoints with stakeholders.
         </p>
       </div>
 

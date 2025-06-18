@@ -11,7 +11,7 @@ export function AboutHeroSection() {
           <div className="relative">
             <div className="w-full aspect-square rounded-xl2 overflow-hidden bg-surface-foreground shadow-card">
               <Image
-                src="/placeholder.svg?height=600&width=600"
+                src="https://images.unsplash.com/photo-1634926878768-2a5b3c42f139?q=80&w=1956&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 alt="Mugisha Moses"
                 width={600}
                 height={600}
@@ -45,7 +45,8 @@ export function AboutHeroSection() {
           <p className="text-lg text-neutral-400 mb-8">
             I'm Mugisha Moses, a UI/UX designer with 7+ years of experience creating intuitive digital experiences that
             solve real user problems and drive business growth. My approach combines strategic thinking, empathy, and a
-            keen eye for detail.
+            keen eye for detail. I've helped companies across fintech, healthcare, and e-commerce sectors increase 
+            conversion rates by an average of 35% through thoughtful design solutions.
           </p>
           <div className="flex flex-wrap gap-4">
             <Link

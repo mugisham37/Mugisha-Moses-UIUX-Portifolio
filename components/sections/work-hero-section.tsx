@@ -7,14 +7,16 @@ export function WorkHeroSection() {
         </h1>
         <p className="text-lg text-neutral-400 mb-8 animate-on-scroll">
           A curated collection of projects that showcase my approach to solving complex design challenges and creating
-          impactful digital experiences.
+          impactful digital experiences that drive measurable business results and delight users.
         </p>
 
         <div className="flex flex-wrap gap-3 justify-center animate-on-scroll">
-          <span className="text-sm px-4 py-2 rounded-full bg-accent-blue/20 text-accent-blue">UX Design</span>
+          <span className="text-sm px-4 py-2 rounded-full bg-accent-blue/20 text-accent-blue">UX Research</span>
           <span className="text-sm px-4 py-2 rounded-full bg-accent-purple/20 text-accent-purple">UI Design</span>
           <span className="text-sm px-4 py-2 rounded-full bg-accent-teal/20 text-accent-teal">Product Design</span>
           <span className="text-sm px-4 py-2 rounded-full bg-orange-400/20 text-orange-400">Design Systems</span>
+          <span className="text-sm px-4 py-2 rounded-full bg-pink-400/20 text-pink-400">Interaction Design</span>
+          <span className="text-sm px-4 py-2 rounded-full bg-green-400/20 text-green-400">Conversion Optimization</span>
         </div>
       </div>
     </section>

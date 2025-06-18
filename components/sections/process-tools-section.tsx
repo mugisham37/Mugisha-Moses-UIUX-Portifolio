@@ -9,91 +9,91 @@ export function ProcessToolsSection() {
   const toolCategories = {
     research: {
       title: "Research & Discovery",
-      description: "Tools I use to understand users, gather insights, and define problems.",
+      description: "Tools I use to understand users, gather insights, and define problems with precision and depth.",
       tools: [
         {
           name: "Maze",
-          logo: "/placeholder.svg?height=60&width=60",
+          logo: "https://cdn.worldvectorlogo.com/logos/maze-1.svg",
           description: "Remote user testing and research platform",
-          usage: "Usability testing, surveys, card sorting",
+          usage: "Usability testing, surveys, card sorting, tree testing",
         },
         {
           name: "Miro",
-          logo: "/placeholder.svg?height=60&width=60",
+          logo: "https://cdn.worldvectorlogo.com/logos/miro-2.svg",
           description: "Collaborative whiteboarding platform",
-          usage: "User journey mapping, affinity diagrams, workshops",
+          usage: "User journey mapping, affinity diagrams, remote workshops",
         },
         {
           name: "Hotjar",
-          logo: "/placeholder.svg?height=60&width=60",
+          logo: "https://cdn.worldvectorlogo.com/logos/hotjar-1.svg",
           description: "User behavior analytics and feedback",
-          usage: "Heatmaps, session recordings, feedback polls",
+          usage: "Heatmaps, session recordings, feedback polls, conversion funnels",
         },
         {
           name: "Dovetail",
-          logo: "/placeholder.svg?height=60&width=60",
-          description: "Research repository and analysis",
-          usage: "Interview transcription, insight management, research ops",
+          logo: "https://dovetailapp.com/img/logo.svg",
+          description: "Research repository and analysis platform",
+          usage: "Interview transcription, insight management, research collaboration",
         },
       ],
     },
     design: {
       title: "Design & Prototyping",
-      description: "Tools I use to create wireframes, visual designs, and interactive prototypes.",
+      description: "Tools I use to create wireframes, visual designs, and interactive prototypes that bring ideas to life.",
       tools: [
         {
           name: "Figma",
-          logo: "/placeholder.svg?height=60&width=60",
+          logo: "https://cdn.worldvectorlogo.com/logos/figma-5.svg",
           description: "Collaborative design platform",
-          usage: "UI design, prototyping, design systems",
+          usage: "UI design, prototyping, design systems, component libraries",
         },
         {
           name: "Adobe XD",
-          logo: "/placeholder.svg?height=60&width=60",
-          description: "Vector-based design tool",
-          usage: "UI design, prototyping, design specs",
+          logo: "https://cdn.worldvectorlogo.com/logos/adobe-xd-2.svg",
+          description: "Vector-based UI/UX design tool",
+          usage: "UI design, rapid prototyping, responsive layouts, auto-animate",
         },
         {
           name: "Principle",
-          logo: "/placeholder.svg?height=60&width=60",
-          description: "Interactive prototyping tool",
-          usage: "Advanced animations, micro-interactions",
+          logo: "https://principleformac.com/favicon.svg",
+          description: "Advanced interactive prototyping tool",
+          usage: "Complex animations, micro-interactions, transition design",
         },
         {
           name: "Framer",
-          logo: "/placeholder.svg?height=60&width=60",
-          description: "Prototyping and interactive design",
-          usage: "High-fidelity prototypes, code components",
+          logo: "https://cdn.worldvectorlogo.com/logos/framer-motion.svg",
+          description: "Code-based prototyping platform",
+          usage: "High-fidelity prototypes, interactive components, motion design",
         },
       ],
     },
     collaboration: {
       title: "Collaboration & Handoff",
-      description: "Tools I use to collaborate with teams and deliver final designs.",
+      description: "Tools I use to collaborate with cross-functional teams and deliver final designs with precision and clarity.",
       tools: [
         {
           name: "Zeplin",
-          logo: "/placeholder.svg?height=60&width=60",
-          description: "Design handoff and collaboration",
-          usage: "Design specs, asset management, style guides",
+          logo: "https://cdn.worldvectorlogo.com/logos/zeplin.svg",
+          description: "Design handoff and collaboration platform",
+          usage: "Design specs, asset management, style guides, developer handoff",
         },
         {
           name: "Abstract",
-          logo: "/placeholder.svg?height=60&width=60",
-          description: "Design version control",
-          usage: "File management, design reviews, branching",
+          logo: "https://cdn.worldvectorlogo.com/logos/abstract-2.svg",
+          description: "Design version control system",
+          usage: "File versioning, design reviews, branching, merge management",
         },
         {
           name: "Notion",
-          logo: "/placeholder.svg?height=60&width=60",
-          description: "All-in-one workspace",
-          usage: "Documentation, project management, knowledge base",
+          logo: "https://cdn.worldvectorlogo.com/logos/notion-2.svg",
+          description: "All-in-one collaborative workspace",
+          usage: "Documentation, project management, knowledge base, client portals",
         },
         {
           name: "Slack",
-          logo: "/placeholder.svg?height=60&width=60",
-          description: "Team communication platform",
-          usage: "Real-time communication, file sharing, integrations",
+          logo: "https://cdn.worldvectorlogo.com/logos/slack-new-logo.svg",
+          description: "Team communication and collaboration hub",
+          usage: "Real-time communication, file sharing, integrations, client channels",
         },
       ],
     },
@@ -104,7 +104,8 @@ export function ProcessToolsSection() {
       <div className="text-center mb-12">
         <h2 className="text-3xl font-bricolage font-semibold mb-4 animate-on-scroll">Tools & Technology</h2>
         <p className="text-lg text-neutral-400 animate-on-scroll max-w-2xl mx-auto">
-          I leverage industry-standard tools throughout my design process to ensure efficiency and collaboration.
+          I leverage industry-standard tools throughout my design process to ensure efficiency, collaboration, 
+          and the highest quality deliverables for every project.
         </p>
       </div>
 
