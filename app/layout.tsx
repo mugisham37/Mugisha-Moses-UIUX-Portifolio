@@ -7,17 +7,13 @@ import { Navigation } from "@/components/navigation"
 import { Footer } from "@/components/footer"
 import { AnimationProvider } from "@/components/animation-provider"
 import { SkipLink } from "@/components/ui/skip-link"
-import { CookieConsent } from "@/components/ui/cookie-consent"
 import { CursorEffect } from "@/components/ui/cursor-effect"
 import { PerformanceMonitor } from "@/components/ui/performance-monitor"
 import { PageTransition } from "@/components/ui/page-transition"
-import { LanguageProvider } from "@/contexts/language-context"
-import { AnalyticsProvider } from "@/components/providers/analytics-provider"
 import { AccessibilityPanel } from "@/components/ui/accessibility-panel"
 import { ScreenReaderAnnouncer } from "@/components/ui/screen-reader-announcer"
 import { KeyboardNavigationHelper } from "@/components/ui/keyboard-navigation-helper"
 import { ThemeCustomizer } from "@/components/ui/theme-customizer"
-import { FeedbackSurvey } from "@/components/ui/feedback-survey"
 import { PerformanceOptimizer } from "@/components/ui/performance-optimizer"
 import { PerformanceOptimizations } from "@/components/ui/performance-optimizations"
 import { MicroInteractions } from "@/components/ui/micro-interactions"
@@ -86,9 +82,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${inter.variable} ${bricolage.variable} h-full scroll-smooth`}>
       <body className="min-h-full bg-[#111112] text-neutral-100 font-sans antialiased">
-        <AnalyticsProvider>
-          <LanguageProvider initialLocale="en">
-            <AnimationProvider>
+        <AnimationProvider>
               {/* Essential components loaded immediately */}
               <Navigation />
               <SkipLink />
@@ -102,7 +96,6 @@ export default function RootLayout({
               </PageTransition>
               
               <Footer />
-              <CookieConsent />
               
               {/* Non-essential components loaded with Suspense */}
               <Suspense fallback={null}>
@@ -122,12 +115,9 @@ export default function RootLayout({
                 <CursorEffect />
                 <MicroInteractions />
                 <PerformanceOptimizations />
-                <FeedbackSurvey />
                 <PerformanceMonitor />
               </Suspense>
-            </AnimationProvider>
-          </LanguageProvider>
-        </AnalyticsProvider>
+        </AnimationProvider>
       </body>
     </html>
   )

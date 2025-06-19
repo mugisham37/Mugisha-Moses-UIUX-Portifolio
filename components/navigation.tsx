@@ -5,8 +5,6 @@ import Link from "next/link"
 import { usePathname, useRouter } from "next/navigation"
 import { Menu, X } from "lucide-react"
 import { ThemeToggle } from "@/components/ui/theme-toggle"
-import { useLanguage } from "@/contexts/language-context"
-
 // Memoized NavLink component for better performance
 const NavLink = memo(({ href, name, isActive }: { href: string; name: string; isActive: boolean }) => (
   <Link
@@ -42,17 +40,16 @@ export function Navigation() {
   const [scrolled, setScrolled] = useState(false)
   const pathname = usePathname()
   const router = useRouter()
-  const { t } = useLanguage()
 
   // Define nav links outside of render to prevent recreation
   const navLinks = [
-    { name: t("common.navigation.home"), href: "/" },
-    { name: t("common.navigation.about"), href: "/about" },
-    { name: t("common.navigation.work"), href: "/work" },
-    { name: t("common.navigation.services"), href: "/services" },
-    { name: t("common.navigation.process"), href: "/process" },
-    { name: t("common.navigation.resources"), href: "/resources" },
-    { name: t("common.navigation.contact"), href: "/contact" },
+    { name: "Home", href: "/" },
+    { name: "About", href: "/about" },
+    { name: "Work", href: "/work" },
+    { name: "Services", href: "/services" },
+    { name: "Process", href: "/process" },
+    { name: "Resources", href: "/resources" },
+    { name: "Contact", href: "/contact" },
   ]
 
   // Memoized scroll handler to prevent recreation on each render
@@ -169,11 +166,11 @@ export function Navigation() {
                   href="/contact"
                   className="block w-full py-3 px-4 bg-accent-blue text-white text-center rounded-lg font-medium"
                 >
-                  {t("common.buttons.getInTouch")}
+                  Get in Touch
                 </Link>
               </div>
               <div className="mt-6 text-center text-sm text-neutral-500">
-                <p>&copy; 2025 Mugisha Moses. {t("common.footer.rights")}</p>
+                <p>&copy; 2025 Mugisha Moses. All rights reserved</p>
               </div>
             </div>
           </div>
